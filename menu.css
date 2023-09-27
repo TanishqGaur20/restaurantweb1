@@ -1,0 +1,357 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    /* /* background-color: #5bc7f2;  */
+    background-image: url(menuback.jpg);
+    background-size: cover;
+}
+
+.head2 {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    font-size: 1rem;
+}
+
+
+
+.head2 h2 {
+    margin-top: 20px;
+    color: #d2e334;
+    font-size: 3em;
+}
+
+.uphead {
+    height: 2.5rem;
+    font-size: 3rem;
+    color: #CECECE;
+    font-weight: 6000;
+    transform: translateX(80px);
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.uphead h4 {
+    margin-left: 9rem;
+}
+
+.uprange {
+    display: flex;
+}
+
+.uprange pre {
+    margin-left: 12rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.up {
+    transform: translateX(60px);
+    height: 28.5rem;
+    padding: 1rem 2rem 1rem 6rem;
+    /* background-color: black; */
+    display: flex;
+}
+
+.upleft {
+    height: 28rem;
+    width: 35%;
+    display: flex;
+    /* background-color: green; */
+}
+
+.vline {
+    height: 23.5rem;
+    width: 0.2rem;
+    background-color: rgb(206, 206, 206);
+}
+
+.itemname {
+    font-size: 2rem;
+    color: rgb(251, 255, 132);
+    height: 15rem;
+    margin-left: 2rem;
+    display: block;
+}
+
+.itemname h4 {
+    transition: 0.4s ease;
+}
+
+.itemname h4:hover {
+    transform: scale(1.05);
+}
+
+.upright {
+    height: 28rem;
+    /* background-color: rgb(202, 143, 34); */
+    color: white;
+    width: 35%;
+    display: flex;
+}
+
+.itemhalfprice {
+    height: 14rem;
+    width: 18%;
+    margin-left: 45px;
+    font-size: 33px;
+}
+
+.vline2 {
+    /* margin-left: 15px; */
+    transform: translateX(80px);
+    height: 23.5rem;
+    width: 0.2rem;
+    background-color: rgb(206, 206, 206);
+
+}
+
+.halfpricedata {
+    height: 1em;
+    width: 1em;
+    font-size: 33px;
+    transform: translateX(30px);
+}
+
+.halfpricedata h4 {
+    transition: 0.5s ease;
+}
+
+.halfpricedata h4:hover {
+    transform: scale(1.5);
+}
+
+.itemfullprice {
+    height: 14rem;
+    width: 18%;
+    margin-left: 140px;
+}
+
+
+.fullpricedata {
+    height: 1em;
+    width: 1em;
+    font-size: 33px;
+    transform: translateX(50px);
+}
+
+.fullpricedata h4 {
+    transition: 0.5s ease;
+}
+
+.fullpricedata h4:hover {
+    transform: scale(1.5);
+}
+
+.vline3 {
+
+    /* transform: translateX(0px); */
+    height: 23.5rem;
+    width: 0.2rem;
+    background-color: rgb(206, 206, 206);
+}
+
+.sideimgmenu {
+    height: 350px;
+    width: 350px;
+    margin-left: 35px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-image: url("photoformenu.webp");
+    background-size: cover;
+    transition: 0.5s ease;
+    box-shadow: 3px 5px 5px red;
+}
+
+.sideimgmenu:hover {
+    transform: scale(1.04);
+}
+
+.Nextbtn {
+    transform: translate(-180px, 420px);
+    height: 45px;
+    /* transform: translateX(-50px); */
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(163, 48, 10);
+    color: rgb(255, 255, 255);
+    border-radius: 18px;
+    box-shadow: 2px 3px 10px rgb(223, 60, 60);
+    border: none;
+    transition: 0.5s ease;
+}
+
+.menubtn {
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(163, 48, 10);
+    color: rgb(255, 255, 255);
+    border-radius: 18px;
+    transition: 0.5s ease;
+    box-shadow: 2px 3px 10px rgb(223, 60, 60);
+    border: none;
+    /* transform: translate(-270px, 420px); */
+    position: relative;
+    left: -270px;
+    top: 420px;
+}
+
+.menubtn:active {
+    scale: 1.02;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.up button:active {
+    scale: 1.02;
+}
+
+@media (max-width:600px) {
+    .main {
+        background-color: #66bd7f;
+        background-image: none;
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(#cc2b5e, #753a88);
+
+    }
+
+    .head2 h2 {
+        color: #d2e334;
+        font-size: 2em;
+        transform: translateY(-30px);
+        margin-top: 30px;
+
+    }
+
+    .uphead {
+        height: 1rem;
+        font-size: 1.9rem;
+        color: #CECECE;
+        font-weight: 6000;
+        transform: translateX(-120px);
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+
+    .uphead h4 {
+        margin-left: 9rem;
+    }
+
+    .up {
+        /* transform: translateX(60px); */
+        padding: 0;
+        height: 28.5rem;
+        display: flex;
+    }
+
+    .upleft {
+        height: 28rem;
+        width: 45%;
+        display: flex;
+        /* background-color: green; */
+    }
+
+    .itemname {
+        margin-left: -50px;
+        font-size: 1rem;
+        color: rgb(251, 255, 132);
+        height: 30rem;
+        /* margin-left: 2rem; */
+        line-height: 25px;
+        width: 500vw;
+        display: inline;
+    }
+
+    .uprange pre {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 0.6rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .itemhalfprice {
+        height: 14rem;
+        width: 18%;
+        margin-left: -45px;
+        font-size: 33px;
+    }
+
+    .halfpricedata {
+        height: 1em;
+        width: 1em;
+        line-height: 25px;
+        font-size: 15px;
+        transform: translateX(30px);
+    }
+
+    .itemfullprice {
+        height: 14rem;
+        width: 18%;
+        margin-left: 100px;
+    }
+
+
+    .fullpricedata {
+        height: 1em;
+        width: 1em;
+        font-size: 15px;
+        line-height: 25px;
+        transform: translateX(40px);
+    }
+
+    .Nextbtn {
+        transform: translate(-75px, 470px);
+        height: 30px;
+        /* transform: translateX(-50px); */
+        width: 100px;
+        font-size: 15px;
+
+    }
+
+    .menubtn {
+        height: 30px;
+        width: 100px;
+        /* transform: translate(5px, 485px); */
+        font-size: 15px;
+        position: relative;
+        top: 470px;
+        bottom: 0;
+        left: -120px;
+    }
+
+    .vline {
+        display: none;
+    }
+
+    .vline2 {
+        display: none;
+    }
+
+    .vline3 {
+        display: none;
+    }
+
+    #pre2 {
+        transform: translateX(45px);
+    }
+
+    .sideimgmenu {
+        display: none;
+    }
+}

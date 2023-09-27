@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery</title>
+    <link rel="stylesheet" href="cwhweb.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="logo">
+                <!-- <div class="logoimg">
+
+                </div> -->
+            </div>
+            <div class="options">
+                <ul>
+                    <li>Home</li>
+                    <a class="anchor" href="aboutus.html">
+                        <li>About</li>
+                    </a>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="content">
+            <div class="left">
+                <h2>
+                    Order the <span>Tasty</span> food from the best <Span>Restro </Span>near you.</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, fuga! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Officiis, molestiae?</p>
+                <div class="foodimages">
+                    <div class="foodimg">
+
+                    </div>
+                    <div class="foodimg2">
+
+                    </div>
+                    <div class="foodimg3">
+
+                    </div>
+                </div>
+                <button> Order Now</button>
+            </div>
+            <div class="right">
+                <a href="menu.html" target="_main" style="color: white; text-decoration: none;"><button class="menu">
+                        Menu
+                    </button></a>
+                <div class="img">
+                    <img id="imgs1" src="deliveryboy.jpg" alt="" onclick="imagechange()">
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            The Best Food Cafe and Restro <br>
+            Made with &hearts; by Tanishq.
+        </div>
+    </div>
+    <script>
+        function imagechange() {
+            let displayimage = document.getElementById("imgs1");
+            if (displayimage.src.match("deliveryboy.jpg")) {
+                displayimage.src = 'fooddeli.jpg'
+            }
+            else {
+                displayimage.src = "deliveryboy.jpg"
+            }
+        }
+
+    </script>
+</body>
+
+</html>

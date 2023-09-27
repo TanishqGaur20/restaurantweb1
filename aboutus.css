@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    /* background-color: #e3f7ff; */
+    background-image: url(aboutback.png);
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.head {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 29px;
+    font-size: 40px;
+    /* text-decoration: underline;
+    text-underline-position: under; */
+    font-weight: 600;
+    padding-bottom: 15px;
+    border-bottom: 4px solid gray;
+    letter-spacing: 4px;
+    font-family: cursive;
+    color: #257119;
+}
+
+.head p {
+    transition: 0.5s ease;
+    border-bottom: 4px solid rgb(0, 0, 0);
+
+}
+
+.head p:hover {
+    transform: scale(1.05);
+    border-bottom: 4px solid rgb(8, 54, 218);
+}
+
+.content {
+    margin-top: 65px;
+    font-size: 20px;
+    position: relative;
+}
+
+.content h3 {
+    margin-top: 20px;
+    font-family: cursive;
+    color: rgb(95, 71, 128);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.logo {
+    background-image: url(restaurant-logo-removebg-preview.png);
+    height: 120px;
+    width: 200px;
+    position: absolute;
+    background-size: cover;
+    top: -70px;
+    right: -10px;
+    animation: logoblink 3s ease-out infinite;
+}
+
+button {
+    margin-top: 10px;
+    height: 50px;
+    background-color: #fcc9cb;
+    width: 85px;
+    font-size: 45px;
+    padding: 0px 4px 3px 4px;
+    border: none;
+    border-radius: 5px;
+    transform: translateX(-570px);
+    transition: 0.5s ease;
+}
+
+a {
+    color: black;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+
+@keyframes logoblink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width:600px) {
+    .main {
+        background-image: url(aboutback.png);
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .head {
+        height: 35px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-right: 29px;
+        font-size: 20px;
+        /* text-decoration: underline;
+        text-underline-position: under; */
+        font-weight: 600;
+        padding-bottom: 15px;
+        border-bottom: 2px solid gray;
+        letter-spacing: 4px;
+        font-family: cursive;
+        color: #257119;
+    }
+
+    .head p {
+        transition: 0.5s ease;
+        border-bottom: 2px solid rgb(0, 0, 0);
+
+    }
+
+    .head p:hover {
+        transform: scale(1.05);
+        border-bottom: 2px solid rgb(8, 54, 218);
+    }
+
+
+    .content {
+        margin-top: 65px;
+        font-size: 10px;
+        position: relative;
+    }
+
+    .content h3 {
+        margin-top: 20px;
+        /* font-family: cursive; */
+        color: rgb(95, 71, 128);
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .logo {
+        background-image: url(restaurant-logo-removebg-preview.png);
+        height: 90px;
+        width: 150px;
+        position: absolute;
+        background-size: cover;
+        top: -75px;
+        right: -25px;
+        animation: logoblink 3s ease-out infinite;
+    }
+
+    button {
+        margin-top: 10px;
+        height: 35px;
+        background-color: #fcc9cb;
+        width: 55px;
+        font-size: 20px;
+        padding: 0px 4px 3px 4px;
+        border: none;
+        border-radius: 5px;
+        transform: translateX(-165px);
+        transition: 0.5s ease;
+    }
+}
